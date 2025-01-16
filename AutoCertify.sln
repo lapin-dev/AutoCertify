@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCertify", "AutoCertify\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCertify.Client", "AutoCertify\AutoCertify.Client\AutoCertify.Client.csproj", "{9A636CCC-B7BC-4FAC-A267-958EC979FBF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{867B7952-BC1E-4A5E-846E-E2622E41447C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{D9E55E3D-9C55-45A4-AEEA-1DF0EBA22F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{6E9060D1-DB3F-4DC9-8610-B34070DE1102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,19 @@ Global
 		{9A636CCC-B7BC-4FAC-A267-958EC979FBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A636CCC-B7BC-4FAC-A267-958EC979FBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A636CCC-B7BC-4FAC-A267-958EC979FBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867B7952-BC1E-4A5E-846E-E2622E41447C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867B7952-BC1E-4A5E-846E-E2622E41447C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867B7952-BC1E-4A5E-846E-E2622E41447C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867B7952-BC1E-4A5E-846E-E2622E41447C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E55E3D-9C55-45A4-AEEA-1DF0EBA22F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E55E3D-9C55-45A4-AEEA-1DF0EBA22F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E55E3D-9C55-45A4-AEEA-1DF0EBA22F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E55E3D-9C55-45A4-AEEA-1DF0EBA22F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9060D1-DB3F-4DC9-8610-B34070DE1102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9060D1-DB3F-4DC9-8610-B34070DE1102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9060D1-DB3F-4DC9-8610-B34070DE1102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9060D1-DB3F-4DC9-8610-B34070DE1102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
